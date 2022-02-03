@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- JDBC Database connection settings -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <!--                <property name="model.db.hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>-->
+
+        <property name="connection.url">
+            jdbc:mysql://localhost:3306/convertio_bot_db?serverTimezone=UTC
+        </property>
+        <property name="connection.autocommit">true</property>
+        <property name="connection.username">client</property>
+        <property name="connection.password">client</property>
+        <property name="connection.pool_size">500</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="show_sql">false</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="hibernate.enable_lazy_load_no_trans">true</property>
+        <!--        <property name="model.db.hibernate.transaction.jta.platform">org.model.db.hibernate.service.jta.platform.internal.WeblogicJtaPlatform</property>-->
+
+    </session-factory>
+</hibernate-configuration>

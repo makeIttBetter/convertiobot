@@ -1,0 +1,12 @@
+ 
+out/
+target/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+.WebShop/
+index.jsp
+src/main/resources/spring/database.properties
+src/main/resources/spring/bot.properties

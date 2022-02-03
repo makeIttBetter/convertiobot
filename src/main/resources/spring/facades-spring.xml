@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    <context:component-scan base-package="org.telegrambot.convertio.facades"/>
+
+    <bean id="abstractPopulatingConverter"
+          class="org.telegrambot.convertio.facades.converters.AbstractPopulatingConverter"
+          abstract="true" primary="true"/>
+
+    <bean id="advertisingConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.advertising.AdvertisingData"/>
+        <property name="populators">
+            <list>
+                <ref bean="advertisingPopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="advertisingReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.advertising.Advertising"/>
+        <property name="populators">
+            <list>
+                <ref bean="advertisingReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="buttonConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.advertising.ButtonData"/>
+        <property name="populators">
+            <list>
+                <ref bean="buttonPopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="buttonReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.advertising.Button"/>
+        <property name="populators">
+            <list>
+                <ref bean="buttonReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="fileCategoryConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.files.FileCategoryData"/>
+        <property name="populators">
+            <list>
+                <ref bean="fileCategoryPopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="fileCategoryReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.files.FileCategory"/>
+        <property name="populators">
+            <list>
+                <ref bean="fileCategoryReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="fileConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.files.FileData"/>
+        <property name="populators">
+            <list>
+                <ref bean="filePopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="fileReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.files.File"/>
+        <property name="populators">
+            <list>
+                <ref bean="fileReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="file2FileConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.files.File2FileData"/>
+        <property name="populators">
+            <list>
+                <ref bean="file2FilePopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="file2FileReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.files.File2File"/>
+        <property name="populators">
+            <list>
+                <ref bean="file2FileReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="fileTypeConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.files.FileTypeData"/>
+        <property name="populators">
+            <list>
+                <ref bean="fileTypePopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="fileTypeReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.files.FileType"/>
+        <property name="populators">
+            <list>
+                <ref bean="fileTypeReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="referralConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.advertising.ReferralData"/>
+        <property name="populators">
+            <list>
+                <ref bean="referralPopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="referralReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.advertising.Referral"/>
+        <property name="populators">
+            <list>
+                <ref bean="referralReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="referralUserConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.advertising.ReferralUserData"/>
+        <property name="populators">
+            <list>
+                <ref bean="referralUserPopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="referralUserReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.advertising.ReferralUser"/>
+        <property name="populators">
+            <list>
+                <ref bean="referralUserReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="requestConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.user.RequestData"/>
+        <property name="populators">
+            <list>
+                <ref bean="requestPopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="requestReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.user.Request"/>
+        <property name="populators">
+            <list>
+                <ref bean="requestReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="userMessageConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.user.UserMessageData"/>
+        <property name="populators">
+            <list>
+                <ref bean="userMessagePopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="userMessageReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.user.UserMessage"/>
+        <property name="populators">
+            <list>
+                <ref bean="userMessageReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="userConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.facades.data.user.UserData"/>
+        <property name="populators">
+            <list>
+                <ref bean="userPopulator"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="userReverseConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="org.telegrambot.convertio.core.model.user.User"/>
+        <property name="populators">
+            <list>
+                <ref bean="userReversePopulator"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>

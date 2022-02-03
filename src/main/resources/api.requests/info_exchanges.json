@@ -1,0 +1,1302 @@
+{
+  "result": {
+    "UAH-ETH": {
+      "in_curr": "UAH",
+      "out_curr": "ETH",
+      "rate": [
+        "72840.30157",
+        "1"
+      ],
+      "fee": "0.008",
+      "out_max": "49.98569976",
+      "i_rate": [
+        "72262.20393",
+        "1"
+      ],
+      "out_min": "0.0199944",
+      "ratesource": "#(usd: minfin, #(usdt: #inner, binance))",
+      "in_max": "3612076.83",
+      "in_min": "1444.84"
+    },
+    "ETH-KZT": {
+      "in_curr": "ETH",
+      "out_curr": "KZT",
+      "rate": [
+        "1",
+        "1078784.5529"
+      ],
+      "fee": "0.014",
+      "out_max": "50004253.47",
+      "i_rate": [
+        "1",
+        "1094101.98063"
+      ],
+      "out_min": "21882.03",
+      "ratesource": "#(usd: #(usdt: binance, #inner), nbrk)",
+      "in_max": "45.70346673",
+      "in_min": "0.02"
+    },
+    "USDT-KZT": {
+      "in_curr": "USDT",
+      "out_curr": "KZT",
+      "rate": [
+        "1",
+        "425.5515"
+      ],
+      "fee": "0.01",
+      "out_max": "49897847.83",
+      "i_rate": [
+        "1",
+        "429.85"
+      ],
+      "out_min": "4.29",
+      "ratesource": "#(usd: #inner, nbrk)",
+      "in_max": "116082",
+      "in_min": "0.01"
+    },
+    "EUR-RUB": {
+      "in_curr": "EUR",
+      "out_curr": "RUB",
+      "rate": [
+        "1",
+        "87.76851"
+      ],
+      "fee": "0.03",
+      "out_max": "5000165.68",
+      "i_rate": [
+        "1",
+        "90.483"
+      ],
+      "out_min": "0.9",
+      "ratesource": "forex",
+      "in_max": "55260.83",
+      "in_min": "0.01"
+    },
+    "EUR-USD": {
+      "in_curr": "EUR",
+      "out_curr": "USD",
+      "rate": [
+        "1",
+        "1.18384"
+      ],
+      "fee": "0.02",
+      "out_max": "120800",
+      "i_rate": [
+        "1",
+        "1.208"
+      ],
+      "out_min": "0.01",
+      "ratesource": "forex",
+      "in_max": "100000",
+      "in_min": "0.01"
+    },
+    "KZT-UAH": {
+      "in_curr": "KZT",
+      "out_curr": "UAH",
+      "rate": [
+        "15.90268",
+        "1"
+      ],
+      "fee": "0.03",
+      "out_max": "3238448.93",
+      "i_rate": [
+        "15.43949",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "nbu",
+      "in_max": "50000000",
+      "in_min": "0.16"
+    },
+    "RUB-ETH": {
+      "in_curr": "RUB",
+      "out_curr": "ETH",
+      "rate": [
+        "198742.13077",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "25.66139338",
+      "i_rate": [
+        "194845.22624",
+        "1"
+      ],
+      "out_min": "0.01999504",
+      "ratesource": "#(usd: forex, #(usdt: #inner, binance))",
+      "in_max": "5000000",
+      "in_min": "3895.94"
+    },
+    "RUB-USDT": {
+      "in_curr": "RUB",
+      "out_curr": "USDT",
+      "rate": [
+        "77.93117",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "65442.37",
+      "i_rate": [
+        "76.4031",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "#(usd: forex, #inner)",
+      "in_max": "5000000",
+      "in_min": "0.77"
+    },
+    "KZT-LTC": {
+      "in_curr": "KZT",
+      "out_curr": "LTC",
+      "rate": [
+        "115511.2915",
+        "1"
+      ],
+      "fee": "0.03",
+      "out_max": "445.84385934",
+      "i_rate": [
+        "112146.88495",
+        "1"
+      ],
+      "out_min": "0.04222337",
+      "ratesource": "#(usd: nbrk, #(usdt: #inner, binance))",
+      "in_max": "50000000",
+      "in_min": "4735.22"
+    },
+    "LTC-ETH": {
+      "in_curr": "LTC",
+      "out_curr": "ETH",
+      "rate": [
+        "10.04974",
+        "1"
+      ],
+      "fee": "0.004",
+      "out_max": "49.95154699",
+      "i_rate": [
+        "10.0097",
+        "1"
+      ],
+      "out_min": "0.02000083",
+      "ratesource": "binance",
+      "in_max": "500",
+      "in_min": "0.2002024"
+    },
+    "KZT-BTC": {
+      "in_curr": "KZT",
+      "out_curr": "BTC",
+      "rate": [
+        "24720153.60774",
+        "1"
+      ],
+      "fee": "0.03",
+      "out_max": "2.08332038",
+      "i_rate": [
+        "24000149.133719999",
+        "1"
+      ],
+      "out_min": "0.00099993",
+      "ratesource": "#(usd: nbrk, #(usdt: #inner, binance))",
+      "in_max": "50000000",
+      "in_min": "23998.7"
+    },
+    "ETH-LTC": {
+      "in_curr": "ETH",
+      "out_curr": "LTC",
+      "rate": [
+        "1",
+        "9.86308"
+      ],
+      "fee": "0.004",
+      "out_max": "495.135",
+      "i_rate": [
+        "1",
+        "9.9027"
+      ],
+      "out_min": "0.198054",
+      "ratesource": "binance",
+      "in_max": "50",
+      "in_min": "0.02"
+    },
+    "ETH-UAH": {
+      "in_curr": "ETH",
+      "out_curr": "UAH",
+      "rate": [
+        "1",
+        "70279.5039"
+      ],
+      "fee": "0.004",
+      "out_max": "3528087.54",
+      "i_rate": [
+        "1",
+        "70561.75091"
+      ],
+      "out_min": "1411.23",
+      "ratesource": "#(usd: #(usdt: binance, #inner), #inner)",
+      "in_max": "50",
+      "in_min": "0.02"
+    },
+    "USD-RUB": {
+      "in_curr": "USD",
+      "out_curr": "RUB",
+      "rate": [
+        "1",
+        "72.65785"
+      ],
+      "fee": "0.03",
+      "out_max": "4999932.71",
+      "i_rate": [
+        "1",
+        "74.905"
+      ],
+      "out_min": "0.74",
+      "ratesource": "forex",
+      "in_max": "66750.32",
+      "in_min": "0.01"
+    },
+    "USD-USDT": {
+      "in_curr": "USD",
+      "out_curr": "USDT",
+      "rate": [
+        "1.02",
+        "1"
+      ],
+      "fee": "0",
+      "out_max": "490196.07",
+      "i_rate": [
+        "1.02",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "#inner",
+      "in_max": "500000",
+      "in_min": "0.02"
+    },
+    "EUR-UAH": {
+      "in_curr": "EUR",
+      "out_curr": "UAH",
+      "rate": [
+        "1",
+        "32.732"
+      ],
+      "fee": "0.02",
+      "out_max": "3340000",
+      "i_rate": [
+        "1",
+        "33.4"
+      ],
+      "out_min": "0.33",
+      "ratesource": "minfin",
+      "in_max": "100000",
+      "in_min": "0.01"
+    },
+    "LTC-USD": {
+      "in_curr": "LTC",
+      "out_curr": "USD",
+      "rate": [
+        "1",
+        "253.9079"
+      ],
+      "fee": "0.004",
+      "out_max": "127463.81",
+      "i_rate": [
+        "1",
+        "254.92762"
+      ],
+      "out_min": "10.52",
+      "ratesource": "#(usdt: binance, #inner)",
+      "in_max": "500",
+      "in_min": "0.04130584"
+    },
+    "EUR-LTC": {
+      "in_curr": "EUR",
+      "out_curr": "LTC",
+      "rate": [
+        "220.29444",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "463.01668147",
+      "i_rate": [
+        "215.97494",
+        "1"
+      ],
+      "out_min": "0.04143999",
+      "ratesource": "#(usd: forex, #(usdt: #inner, binance))",
+      "in_max": "100000",
+      "in_min": "8.95"
+    },
+    "USDT-EUR": {
+      "in_curr": "USDT",
+      "out_curr": "EUR",
+      "rate": [
+        "1.22008",
+        "1"
+      ],
+      "fee": "0.01",
+      "out_max": "99994.2",
+      "i_rate": [
+        "1.208",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "#(usd: #inner, forex)",
+      "in_max": "120793",
+      "in_min": "0.01"
+    },
+    "BTC-ETH": {
+      "in_curr": "BTC",
+      "out_curr": "ETH",
+      "rate": [
+        "1",
+        "21.35478"
+      ],
+      "fee": "0.004",
+      "out_max": "49.99421708",
+      "i_rate": [
+        "1",
+        "21.44055"
+      ],
+      "out_min": "0.02144055",
+      "ratesource": "binance",
+      "in_max": "2.33176001",
+      "in_min": "0.001"
+    },
+    "UAH-RUB": {
+      "in_curr": "UAH",
+      "out_curr": "RUB",
+      "rate": [
+        "1",
+        "2.61884"
+      ],
+      "fee": "0.03",
+      "out_max": "5031026.48",
+      "i_rate": [
+        "1",
+        "2.69984"
+      ],
+      "out_min": "0.02",
+      "ratesource": "cbrf",
+      "in_max": "1863453.57",
+      "in_min": "0.01"
+    },
+    "KZT-EUR": {
+      "in_curr": "KZT",
+      "out_curr": "EUR",
+      "rate": [
+        "535.5485",
+        "1"
+      ],
+      "fee": "0.03",
+      "out_max": "96163.09",
+      "i_rate": [
+        "519.95",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "nbrk",
+      "in_max": "50000000",
+      "in_min": "5.2"
+    },
+    "UAH-USDT": {
+      "in_curr": "UAH",
+      "out_curr": "USDT",
+      "rate": [
+        "28.56229",
+        "1"
+      ],
+      "fee": "0.008",
+      "out_max": "176456.47",
+      "i_rate": [
+        "28.3356",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "#(usd: minfin, #inner)",
+      "in_max": "5000000",
+      "in_min": "0.29"
+    },
+    "EUR-KZT": {
+      "in_curr": "EUR",
+      "out_curr": "KZT",
+      "rate": [
+        "1",
+        "514.7505"
+      ],
+      "fee": "0.01",
+      "out_max": "50063546.93",
+      "i_rate": [
+        "1",
+        "519.95"
+      ],
+      "out_min": "5.19",
+      "ratesource": "nbrk",
+      "in_max": "96285.31",
+      "in_min": "0.01"
+    },
+    "ETH-BTC": {
+      "in_curr": "ETH",
+      "out_curr": "BTC",
+      "rate": [
+        "21.61646",
+        "1"
+      ],
+      "fee": "0.004",
+      "out_max": "2.32230532",
+      "i_rate": [
+        "21.53033",
+        "1"
+      ],
+      "out_min": "0.00100026",
+      "ratesource": "binance",
+      "in_max": "50",
+      "in_min": "0.02153611"
+    },
+    "USD-BTC": {
+      "in_curr": "USD",
+      "out_curr": "BTC",
+      "rate": [
+        "55889.61099",
+        "1"
+      ],
+      "fee": "0",
+      "out_max": "8.94620647",
+      "i_rate": [
+        "55889.61099",
+        "1"
+      ],
+      "out_min": "0.00100018",
+      "ratesource": "#(usdt: #inner, binance)",
+      "in_max": "500000",
+      "in_min": "55.9"
+    },
+    "USD-UAH": {
+      "in_curr": "USD",
+      "out_curr": "UAH",
+      "rate": [
+        "1",
+        "27.75"
+      ],
+      "fee": "0",
+      "out_max": "4991007.05",
+      "i_rate": [
+        "1",
+        "27.75"
+      ],
+      "out_min": "0.27",
+      "ratesource": "#inner",
+      "in_max": "179856.11",
+      "in_min": "0.01"
+    },
+    "BTC-USD": {
+      "in_curr": "BTC",
+      "out_curr": "USD",
+      "rate": [
+        "1",
+        "54411.8399"
+      ],
+      "fee": "0.004",
+      "out_max": "499920.5",
+      "i_rate": [
+        "1",
+        "54630.36135"
+      ],
+      "out_min": "54.63",
+      "ratesource": "#(usdt: binance, #inner)",
+      "in_max": "9.15096467",
+      "in_min": "0.001"
+    },
+    "USD-LTC": {
+      "in_curr": "USD",
+      "out_curr": "LTC",
+      "rate": [
+        "261.41952",
+        "1"
+      ],
+      "fee": "0",
+      "out_max": "500.03060215",
+      "i_rate": [
+        "261.41952",
+        "1"
+      ],
+      "out_min": "0.04096863",
+      "ratesource": "#(usdt: #inner, binance)",
+      "in_max": "130717.76",
+      "in_min": "10.71"
+    },
+    "EUR-BTC": {
+      "in_curr": "EUR",
+      "out_curr": "BTC",
+      "rate": [
+        "47144.41454",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "2.16356488",
+      "i_rate": [
+        "46220.01425",
+        "1"
+      ],
+      "out_min": "0.00099999",
+      "ratesource": "#(usd: forex, #(usdt: #inner, binance))",
+      "in_max": "100000",
+      "in_min": "46.22"
+    },
+    "USDT-UAH": {
+      "in_curr": "USDT",
+      "out_curr": "UAH",
+      "rate": [
+        "1",
+        "27.75"
+      ],
+      "fee": "0",
+      "out_max": "4991007.19",
+      "i_rate": [
+        "1",
+        "27.75"
+      ],
+      "out_min": "0.27",
+      "ratesource": "#(usd: #inner, #inner)",
+      "in_max": "179856.11",
+      "in_min": "0.01"
+    },
+    "USDT-BTC": {
+      "in_curr": "USDT",
+      "out_curr": "BTC",
+      "rate": [
+        "54793.73626",
+        "1"
+      ],
+      "fee": "0",
+      "out_max": "10.03764367",
+      "i_rate": [
+        "54793.73626",
+        "1"
+      ],
+      "out_min": "0.00100011",
+      "ratesource": "binance",
+      "in_max": "550000",
+      "in_min": "54.8"
+    },
+    "RUB-EUR": {
+      "in_curr": "RUB",
+      "out_curr": "EUR",
+      "rate": [
+        "92.29266",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "55258.99",
+      "i_rate": [
+        "90.483",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "forex",
+      "in_max": "5000000",
+      "in_min": "0.91"
+    },
+    "USD-KZT": {
+      "in_curr": "USD",
+      "out_curr": "KZT",
+      "rate": [
+        "1",
+        "425.5515"
+      ],
+      "fee": "0.01",
+      "out_max": "49897847.7",
+      "i_rate": [
+        "1",
+        "429.85"
+      ],
+      "out_min": "4.29",
+      "ratesource": "nbrk",
+      "in_max": "116082",
+      "in_min": "0.01"
+    },
+    "ETH-USDT": {
+      "in_curr": "ETH",
+      "out_curr": "USDT",
+      "rate": [
+        "1",
+        "2532.59472"
+      ],
+      "fee": "0.004",
+      "out_max": "127138.28",
+      "i_rate": [
+        "1",
+        "2542.76579"
+      ],
+      "out_min": "50.85",
+      "ratesource": "binance",
+      "in_max": "50",
+      "in_min": "0.02"
+    },
+    "USDT-LTC": {
+      "in_curr": "USDT",
+      "out_curr": "LTC",
+      "rate": [
+        "256.29364",
+        "1"
+      ],
+      "fee": "0",
+      "out_max": "500.03062893",
+      "i_rate": [
+        "256.29364",
+        "1"
+      ],
+      "out_min": "0.04096863",
+      "ratesource": "binance",
+      "in_max": "128154.67",
+      "in_min": "10.5"
+    },
+    "BTC-RUB": {
+      "in_curr": "BTC",
+      "out_curr": "RUB",
+      "rate": [
+        "1",
+        "3952956.25179"
+      ],
+      "fee": "0.034",
+      "out_max": "4999138.32",
+      "i_rate": [
+        "1",
+        "4092087.21718"
+      ],
+      "out_min": "4092.08",
+      "ratesource": "#(usd: #(usdt: binance, #inner), forex)",
+      "in_max": "1.22165977",
+      "in_min": "0.001"
+    },
+    "LTC-RUB": {
+      "in_curr": "LTC",
+      "out_curr": "RUB",
+      "rate": [
+        "1",
+        "18446.11156"
+      ],
+      "fee": "0.034",
+      "out_max": "5000387.01",
+      "i_rate": [
+        "1",
+        "19095.35359"
+      ],
+      "out_min": "811.22",
+      "ratesource": "#(usd: #(usdt: binance, #inner), forex)",
+      "in_max": "261.86407026",
+      "in_min": "0.04248264"
+    },
+    "UAH-USD": {
+      "in_curr": "UAH",
+      "out_curr": "USD",
+      "rate": [
+        "28.00224",
+        "1"
+      ],
+      "fee": "0.008",
+      "out_max": "179985.6",
+      "i_rate": [
+        "27.78",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "minfin",
+      "in_max": "5000000",
+      "in_min": "0.28"
+    },
+    "ETH-EUR": {
+      "in_curr": "ETH",
+      "out_curr": "EUR",
+      "rate": [
+        "1",
+        "2085.97516"
+      ],
+      "fee": "0.01",
+      "out_max": "100008.5",
+      "i_rate": [
+        "1",
+        "2107.04562"
+      ],
+      "out_min": "42.14",
+      "ratesource": "#(usd: #(usdt: binance, #inner), forex)",
+      "in_max": "47.4638546",
+      "in_min": "0.02"
+    },
+    "RUB-BTC": {
+      "in_curr": "RUB",
+      "out_curr": "BTC",
+      "rate": [
+        "4270139.53724",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "1.19434036",
+      "i_rate": [
+        "4186411.31101",
+        "1"
+      ],
+      "out_min": "0.00100013",
+      "ratesource": "#(usd: forex, #(usdt: #inner, binance))",
+      "in_max": "5000000",
+      "in_min": "4186.96"
+    },
+    "UAH-LTC": {
+      "in_curr": "UAH",
+      "out_curr": "LTC",
+      "rate": [
+        "7320.33203",
+        "1"
+      ],
+      "fee": "0.008",
+      "out_max": "500.03062487",
+      "i_rate": [
+        "7262.23415",
+        "1"
+      ],
+      "out_min": "0.04124075",
+      "ratesource": "#(usd: minfin, #(usdt: #inner, binance))",
+      "in_max": "3631339.48",
+      "in_min": "299.5"
+    },
+    "BTC-USDT": {
+      "in_curr": "BTC",
+      "out_curr": "USDT",
+      "rate": [
+        "1",
+        "54411.8399"
+      ],
+      "fee": "0.004",
+      "out_max": "549912.55",
+      "i_rate": [
+        "1",
+        "54630.36135"
+      ],
+      "out_min": "54.63",
+      "ratesource": "binance",
+      "in_max": "10.06606113",
+      "in_min": "0.001"
+    },
+    "LTC-KZT": {
+      "in_curr": "LTC",
+      "out_curr": "KZT",
+      "rate": [
+        "1",
+        "108263.03587"
+      ],
+      "fee": "0.014",
+      "out_max": "50008931.33",
+      "i_rate": [
+        "1",
+        "109800.23922"
+      ],
+      "out_min": "4578.87",
+      "ratesource": "#(usd: #(usdt: binance, #inner), nbrk)",
+      "in_max": "455.45375578",
+      "in_min": "0.04170189"
+    },
+    "UAH-BTC": {
+      "in_curr": "UAH",
+      "out_curr": "BTC",
+      "rate": [
+        "1565034.30039",
+        "1"
+      ],
+      "fee": "0.008",
+      "out_max": "3.2203767",
+      "i_rate": [
+        "1552613.39324",
+        "1"
+      ],
+      "out_min": "0.00100012",
+      "ratesource": "#(usd: minfin, #(usdt: #inner, binance))",
+      "in_max": "5000000",
+      "in_min": "1552.8"
+    },
+    "EUR-USDT": {
+      "in_curr": "EUR",
+      "out_curr": "USDT",
+      "rate": [
+        "1",
+        "1.16062"
+      ],
+      "fee": "0.02",
+      "out_max": "118431",
+      "i_rate": [
+        "1",
+        "1.18431"
+      ],
+      "out_min": "0.01",
+      "ratesource": "#(usd: forex, #inner)",
+      "in_max": "100000",
+      "in_min": "0.01"
+    },
+    "RUB-UAH": {
+      "in_curr": "RUB",
+      "out_curr": "UAH",
+      "rate": [
+        "2.75384",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "1851961.59",
+      "i_rate": [
+        "2.69984",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "cbrf",
+      "in_max": "5000000",
+      "in_min": "0.03"
+    },
+    "KZT-ETH": {
+      "in_curr": "KZT",
+      "out_curr": "ETH",
+      "rate": [
+        "1150532.89424",
+        "1"
+      ],
+      "fee": "0.03",
+      "out_max": "44.76186666",
+      "i_rate": [
+        "1117022.22741",
+        "1"
+      ],
+      "out_min": "0.01999428",
+      "ratesource": "#(usd: nbrk, #(usdt: #inner, binance))",
+      "in_max": "50000000",
+      "in_min": "22334.06"
+    },
+    "RUB-LTC": {
+      "in_curr": "RUB",
+      "out_curr": "LTC",
+      "rate": [
+        "19973.26139",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "255.34137371",
+      "i_rate": [
+        "19581.62881",
+        "1"
+      ],
+      "out_min": "0.04174882",
+      "ratesource": "#(usd: forex, #(usdt: #inner, binance))",
+      "in_max": "5000000",
+      "in_min": "817.51"
+    },
+    "BTC-KZT": {
+      "in_curr": "BTC",
+      "out_curr": "KZT",
+      "rate": [
+        "1",
+        "23177278.05429"
+      ],
+      "fee": "0.014",
+      "out_max": "49994944.17",
+      "i_rate": [
+        "1",
+        "23506367.19503"
+      ],
+      "out_min": "23506.36",
+      "ratesource": "#(usd: #(usdt: binance, #inner), nbrk)",
+      "in_max": "2.12686817",
+      "in_min": "0.001"
+    },
+    "KZT-USDT": {
+      "in_curr": "KZT",
+      "out_curr": "USDT",
+      "rate": [
+        "451.60041",
+        "1"
+      ],
+      "fee": "0.03",
+      "out_max": "114038.86",
+      "i_rate": [
+        "438.447",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "#(usd: nbrk, #inner)",
+      "in_max": "50000000",
+      "in_min": "4.43"
+    },
+    "RUB-KZT": {
+      "in_curr": "RUB",
+      "out_curr": "KZT",
+      "rate": [
+        "1",
+        "5.61536"
+      ],
+      "fee": "0.02",
+      "out_max": "28649800",
+      "i_rate": [
+        "1",
+        "5.72996"
+      ],
+      "out_min": "0.05",
+      "ratesource": "cbrf",
+      "in_max": "5000000",
+      "in_min": "0.01"
+    },
+    "BTC-UAH": {
+      "in_curr": "BTC",
+      "out_curr": "UAH",
+      "rate": [
+        "1",
+        "1509928.55744"
+      ],
+      "fee": "0.004",
+      "out_max": "4999205.05",
+      "i_rate": [
+        "1",
+        "1515992.52756"
+      ],
+      "out_min": "1515.99",
+      "ratesource": "#(usd: #(usdt: binance, #inner), #inner)",
+      "in_max": "3.29764492",
+      "in_min": "0.001"
+    },
+    "LTC-USDT": {
+      "in_curr": "LTC",
+      "out_curr": "USDT",
+      "rate": [
+        "1",
+        "253.9079"
+      ],
+      "fee": "0.004",
+      "out_max": "127463.81",
+      "i_rate": [
+        "1",
+        "254.92762"
+      ],
+      "out_min": "10.52",
+      "ratesource": "binance",
+      "in_max": "500",
+      "in_min": "0.04130584"
+    },
+    "USD-EUR": {
+      "in_curr": "USD",
+      "out_curr": "EUR",
+      "rate": [
+        "1.22008",
+        "1"
+      ],
+      "fee": "0.01",
+      "out_max": "99994.2",
+      "i_rate": [
+        "1.208",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "forex",
+      "in_max": "120793",
+      "in_min": "0.02"
+    },
+    "UAH-KZT": {
+      "in_curr": "UAH",
+      "out_curr": "KZT",
+      "rate": [
+        "1",
+        "15.28508"
+      ],
+      "fee": "0.01",
+      "out_max": "50049402.69",
+      "i_rate": [
+        "1",
+        "15.43948"
+      ],
+      "out_min": "0.15",
+      "ratesource": "nbu",
+      "in_max": "3241650.8",
+      "in_min": "0.01"
+    },
+    "LTC-UAH": {
+      "in_curr": "LTC",
+      "out_curr": "UAH",
+      "rate": [
+        "1",
+        "7045.94456"
+      ],
+      "fee": "0.004",
+      "out_max": "3537120.76",
+      "i_rate": [
+        "1",
+        "7074.24153"
+      ],
+      "out_min": "292.2",
+      "ratesource": "#(usd: #(usdt: binance, #inner), #inner)",
+      "in_max": "500",
+      "in_min": "0.04130584"
+    },
+    "KZT-USD": {
+      "in_curr": "KZT",
+      "out_curr": "USD",
+      "rate": [
+        "442.7455",
+        "1"
+      ],
+      "fee": "0.03",
+      "out_max": "116319.64",
+      "i_rate": [
+        "429.85",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "nbrk",
+      "in_max": "50000000",
+      "in_min": "4.31"
+    },
+    "ETH-USD": {
+      "in_curr": "ETH",
+      "out_curr": "USD",
+      "rate": [
+        "1",
+        "2532.59472"
+      ],
+      "fee": "0.004",
+      "out_max": "127138.28",
+      "i_rate": [
+        "1",
+        "2542.76579"
+      ],
+      "out_min": "50.85",
+      "ratesource": "#(usdt: binance, #inner)",
+      "in_max": "50",
+      "in_min": "0.02"
+    },
+    "LTC-EUR": {
+      "in_curr": "LTC",
+      "out_curr": "EUR",
+      "rate": [
+        "1",
+        "209.34115"
+      ],
+      "fee": "0.01",
+      "out_max": "100017.86",
+      "i_rate": [
+        "1",
+        "211.45571"
+      ],
+      "out_min": "8.79",
+      "ratesource": "#(usd: #(usdt: binance, #inner), forex)",
+      "in_max": "472.99675704",
+      "in_min": "0.0415842"
+    },
+    "BTC-LTC": {
+      "in_curr": "BTC",
+      "out_curr": "LTC",
+      "rate": [
+        "1",
+        "212.55291"
+      ],
+      "fee": "0.004",
+      "out_max": "499.97806961",
+      "i_rate": [
+        "1",
+        "213.40654"
+      ],
+      "out_min": "0.21340654",
+      "ratesource": "binance",
+      "in_max": "2.34284324",
+      "in_min": "0.001"
+    },
+    "USDT-RUB": {
+      "in_curr": "USDT",
+      "out_curr": "RUB",
+      "rate": [
+        "1",
+        "72.65785"
+      ],
+      "fee": "0.03",
+      "out_max": "4999933.24",
+      "i_rate": [
+        "1",
+        "74.905"
+      ],
+      "out_min": "0.74",
+      "ratesource": "#(usd: #inner, forex)",
+      "in_max": "66750.32",
+      "in_min": "0.01"
+    },
+    "LTC-BTC": {
+      "in_curr": "LTC",
+      "out_curr": "BTC",
+      "rate": [
+        "215.26247",
+        "1"
+      ],
+      "fee": "0.004",
+      "out_max": "2.33203679",
+      "i_rate": [
+        "214.40485",
+        "1"
+      ],
+      "out_min": "0.00100029",
+      "ratesource": "binance",
+      "in_max": "500",
+      "in_min": "0.21446755"
+    },
+    "KZT-RUB": {
+      "in_curr": "KZT",
+      "out_curr": "RUB",
+      "rate": [
+        "5.90187",
+        "1"
+      ],
+      "fee": "0.03",
+      "out_max": "5020288.06",
+      "i_rate": [
+        "5.72997",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "cbrf",
+      "in_max": "28766100",
+      "in_min": "0.06"
+    },
+    "USDT-USD": {
+      "in_curr": "USDT",
+      "out_curr": "USD",
+      "rate": [
+        "1",
+        "1"
+      ],
+      "fee": "0",
+      "out_max": "492610.83",
+      "i_rate": [
+        "1",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "#inner",
+      "in_max": "492610.83",
+      "in_min": "0.01"
+    },
+    "USD-ETH": {
+      "in_curr": "USD",
+      "out_curr": "ETH",
+      "rate": [
+        "2601.23125",
+        "1"
+      ],
+      "fee": "0",
+      "out_max": "49.98693983",
+      "i_rate": [
+        "2601.23125",
+        "1"
+      ],
+      "out_min": "0.01999822",
+      "ratesource": "#(usdt: #inner, binance)",
+      "in_max": "130027.59",
+      "in_min": "52.02"
+    },
+    "UAH-EUR": {
+      "in_curr": "UAH",
+      "out_curr": "EUR",
+      "rate": [
+        "33.8754",
+        "1"
+      ],
+      "fee": "0.01",
+      "out_max": "100178.89",
+      "i_rate": [
+        "33.54",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "minfin",
+      "in_max": "3360000",
+      "in_min": "0.34"
+    },
+    "RUB-USD": {
+      "in_curr": "RUB",
+      "out_curr": "USD",
+      "rate": [
+        "76.4031",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "66751.21",
+      "i_rate": [
+        "74.905",
+        "1"
+      ],
+      "out_min": "0.01",
+      "ratesource": "forex",
+      "in_max": "5000000",
+      "in_min": "0.75"
+    },
+    "ETH-RUB": {
+      "in_curr": "ETH",
+      "out_curr": "RUB",
+      "rate": [
+        "1",
+        "183990.0325"
+      ],
+      "fee": "0.034",
+      "out_max": "5000156.8",
+      "i_rate": [
+        "1",
+        "190465.87216"
+      ],
+      "out_min": "3809.31",
+      "ratesource": "#(usd: #(usdt: binance, #inner), forex)",
+      "in_max": "26.25224534",
+      "in_min": "0.02"
+    },
+    "EUR-ETH": {
+      "in_curr": "EUR",
+      "out_curr": "ETH",
+      "rate": [
+        "2194.20966",
+        "1"
+      ],
+      "fee": "0.02",
+      "out_max": "46.48598623",
+      "i_rate": [
+        "2151.18594",
+        "1"
+      ],
+      "out_min": "0.01999827",
+      "ratesource": "#(usd: forex, #(usdt: #inner, binance))",
+      "in_max": "100000",
+      "in_min": "43.02"
+    },
+    "USDT-ETH": {
+      "in_curr": "USDT",
+      "out_curr": "ETH",
+      "rate": [
+        "2550.2267",
+        "1"
+      ],
+      "fee": "0",
+      "out_max": "49.98694135",
+      "i_rate": [
+        "2550.2267",
+        "1"
+      ],
+      "out_min": "0.01999477",
+      "ratesource": "binance",
+      "in_max": "127478.03",
+      "in_min": "50.99"
+    },
+    "BTC-EUR": {
+      "in_curr": "BTC",
+      "out_curr": "EUR",
+      "rate": [
+        "1",
+        "44816.38735"
+      ],
+      "fee": "0.01",
+      "out_max": "99989.88",
+      "i_rate": [
+        "1",
+        "45269.07814"
+      ],
+      "out_min": "45.26",
+      "ratesource": "#(usd: #(usdt: binance, #inner), forex)",
+      "in_max": "2.20879003",
+      "in_min": "0.001"
+    }
+  },
+  "id": "",
+  "jsonrpc": "2.0"
+}

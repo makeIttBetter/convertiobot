@@ -1,0 +1,924 @@
+{
+  "result": {
+    "capitalist": {
+      "active_for_merchant": true,
+      "USD": {
+        "out_tech_max": "799.28",
+        "in_tech_max": "50000",
+        "prec": "2",
+        "out_tech_min": "0.1",
+        "in_tech_min": "0.1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "RUB": {
+        "out_tech_max": "89060.71",
+        "in_tech_max": "5000000",
+        "prec": "2",
+        "out_tech_min": "20",
+        "in_tech_min": "20",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.03",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "payoneer": {
+      "active_for_merchant": true,
+      "USD": {
+        "out_tech_max": "100000",
+        "in_tech_max": "100000",
+        "prec": "2",
+        "out_tech_min": "500",
+        "in_tech_min": "100",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.02",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci"
+    },
+    "payeer": {
+      "active_for_merchant": true,
+      "EUR": {
+        "out_tech_max": "10000",
+        "in_tech_max": "10000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "in_tech_min": "1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "USD": {
+        "out_tech_max": "1.28",
+        "in_tech_max": "10000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "in_tech_min": "1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "RUB": {
+        "out_tech_max": "258.14",
+        "in_tech_max": "60000",
+        "prec": "2",
+        "out_tech_min": "100.96",
+        "in_tech_min": "100",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.0495",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "perfect": {
+      "active_for_merchant": true,
+      "EUR": {
+        "out_tech_max": "957.32",
+        "in_tech_max": "10000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "in_tech_min": "1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.06",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "USD": {
+        "out_tech_max": "27505.32",
+        "in_tech_max": "50000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "in_tech_min": "1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.06",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci"
+    },
+    "advcash": {
+      "active_for_merchant": true,
+      "EUR": {
+        "out_tech_max": "659.25",
+        "in_tech_max": "40000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "in_tech_min": "1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "USD": {
+        "out_tech_max": "2625.68",
+        "in_tech_max": "50000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "in_tech_min": "1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "UAH": {
+        "out_tech_max": "4166.32",
+        "in_tech_max": "100000",
+        "prec": "2",
+        "out_tech_min": "50",
+        "in_tech_min": "50",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "RUB": {
+        "out_tech_max": "189434.9",
+        "in_tech_max": "200000",
+        "prec": "2",
+        "out_tech_min": "100",
+        "in_tech_min": "100",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "mobile": {
+      "active_for_merchant": true,
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "UAH": {
+        "out_tech_max": "3000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "RUB": {
+        "out_tech_max": "14000",
+        "prec": "2",
+        "out_tech_min": "10",
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "visamc_p2p": {
+      "active_for_merchant": false,
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "UAH": {
+        "out_tech_max": "245400",
+        "in_tech_max": "29350",
+        "prec": "2",
+        "out_tech_min": "10",
+        "in_tech_min": "10",
+        "in_fee": {
+          "add": "5",
+          "min": "0",
+          "mult": "0.02",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "RUB": {
+        "in_tech_max": "619865.71",
+        "prec": "2",
+        "in_tech_min": "547.53",
+        "in_fee": {
+          "add": "30",
+          "min": "0",
+          "mult": "0.05",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "kuna": {
+      "active_for_merchant": true,
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": false,
+      "tp": "cheque",
+      "UAH": {
+        "out_tech_max": "17890.29",
+        "in_tech_max": "10000",
+        "prec": "2",
+        "out_tech_min": "100",
+        "in_tech_min": "100",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "erc20": {
+      "active_for_merchant": true,
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": false,
+      "USDT": {
+        "out_tech_max": "450000",
+        "in_tech_max": "450000",
+        "prec": "2",
+        "out_tech_min": "10",
+        "in_tech_min": "10",
+        "in_fee": {
+          "add": "23",
+          "min": "0",
+          "mult": "0.005",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "26",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "tp": "crypto"
+    },
+    "btc": {
+      "BTC": {
+        "out_tech_max": "50",
+        "in_tech_max": "50",
+        "prec": "8",
+        "out_tech_min": "0.001",
+        "in_tech_min": "0.001",
+        "in_fee": {
+          "add": "0.0004",
+          "min": "0",
+          "mult": "0.005",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0.0007",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "active_for_merchant": true,
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": false,
+      "tp": "crypto"
+    },
+    "worldcard": {
+      "active_for_merchant": true,
+      "EUR": {
+        "out_tech_max": "7000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "out_fee": {
+          "add": "5",
+          "min": "0",
+          "mult": "0.04",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "USD": {
+        "out_tech_max": "6107.84",
+        "prec": "2",
+        "out_tech_min": "1",
+        "out_fee": {
+          "add": "5",
+          "min": "0",
+          "mult": "0.04",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "RUB": {
+        "out_tech_max": "100000",
+        "prec": "2",
+        "out_tech_min": "1000",
+        "out_fee": {
+          "add": "200",
+          "min": "0",
+          "mult": "0.03",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "yandex": {
+      "active_for_merchant": true,
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "RUB": {
+        "out_tech_max": "60000",
+        "prec": "2",
+        "out_tech_min": "20",
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.039",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "anycash": {
+      "active_for_merchant": true,
+      "EUR": {
+        "out_tech_max": "6",
+        "in_tech_max": "100000",
+        "prec": "2",
+        "out_tech_min": "0.01",
+        "in_tech_min": "0.01",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "USD": {
+        "out_tech_max": "683.11",
+        "in_tech_max": "450000",
+        "prec": "2",
+        "out_tech_min": "0.01",
+        "in_tech_min": "0.01",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "active_in_system": true,
+      "payin_allowed": false,
+      "USDT": {
+        "out_tech_max": "1045.01",
+        "in_tech_max": "450000",
+        "prec": "2",
+        "out_tech_min": "0.01",
+        "in_tech_min": "0.01",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "BCHABC": {
+        "out_tech_max": "10",
+        "in_tech_max": "150",
+        "prec": "8",
+        "out_tech_min": "0.001",
+        "in_tech_min": "0.001",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "BTC": {
+        "out_tech_max": "1.66759065",
+        "in_tech_max": "50",
+        "prec": "8",
+        "out_tech_min": "0.001",
+        "in_tech_min": "0.001",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "ETH": {
+        "out_tech_max": "49.8112488",
+        "in_tech_max": "50",
+        "prec": "8",
+        "out_tech_min": "0.02",
+        "in_tech_min": "0.02",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "LTC": {
+        "out_tech_max": "99.99",
+        "in_tech_max": "250",
+        "prec": "8",
+        "out_tech_min": "0.001",
+        "in_tech_min": "0.001",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "tp": "cheque",
+      "UAH": {
+        "out_tech_max": "94313.19",
+        "in_tech_max": "2000000",
+        "prec": "2",
+        "out_tech_min": "0.01",
+        "in_tech_min": "0.01",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "RUB": {
+        "out_tech_max": "11993.49",
+        "in_tech_max": "5000000",
+        "prec": "2",
+        "out_tech_min": "0.01",
+        "in_tech_min": "0.01",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "eth": {
+      "active_for_merchant": true,
+      "is_public": true,
+      "ETH": {
+        "out_tech_max": "50",
+        "in_tech_max": "50",
+        "prec": "8",
+        "out_tech_min": "0.02",
+        "in_tech_min": "0.02",
+        "in_fee": {
+          "add": "0.004",
+          "min": "0",
+          "mult": "0.005",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0.006",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "active_in_system": true,
+      "payin_allowed": false,
+      "tp": "crypto"
+    },
+    "ltc": {
+      "active_for_merchant": true,
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": false,
+      "LTC": {
+        "out_tech_max": "250",
+        "in_tech_max": "250",
+        "prec": "8",
+        "out_tech_min": "0.001",
+        "in_tech_min": "0.001",
+        "in_fee": {
+          "add": "0.0001",
+          "min": "0",
+          "mult": "0.005",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0.0005",
+          "min": "0",
+          "mult": "0",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "tp": "crypto"
+    },
+    "webmoney": {
+      "active_for_merchant": true,
+      "USD": {
+        "out_tech_max": "768.9",
+        "prec": "2",
+        "out_tech_min": "1",
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.0395",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "RUB": {
+        "out_tech_max": "50403.23",
+        "prec": "2",
+        "out_tech_min": "50.41",
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.0395",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "card": {
+      "active_for_merchant": true,
+      "EUR": {
+        "out_tech_max": "7000",
+        "in_tech_max": "7000",
+        "prec": "2",
+        "out_tech_min": "1",
+        "in_tech_min": "1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.07",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "5",
+          "min": "0",
+          "mult": "0.03",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "KZT": {
+        "out_tech_max": "2100000",
+        "prec": "2",
+        "out_tech_min": "500",
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.009",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "USD": {
+        "out_tech_max": "2000",
+        "in_tech_max": "7000",
+        "prec": "2",
+        "out_tech_min": "2",
+        "in_tech_min": "1",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.07",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "5",
+          "min": "0",
+          "mult": "0.03",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "UAH": {
+        "out_tech_max": "1000000",
+        "in_tech_max": "60000",
+        "prec": "2",
+        "out_tech_min": "10",
+        "in_tech_min": "10",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.06",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.01",
+          "method": "ceil",
+          "max": "0"
+        }
+      },
+      "RUB": {
+        "out_tech_max": "1600000",
+        "in_tech_max": "100000",
+        "prec": "2",
+        "out_tech_min": "40",
+        "in_tech_min": "10",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.06",
+          "method": "round",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "50",
+          "min": "0",
+          "mult": "0.03",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    },
+    "qiwi": {
+      "active_for_merchant": true,
+      "is_public": true,
+      "active_in_system": true,
+      "payin_allowed": true,
+      "tp": "sci",
+      "RUB": {
+        "out_tech_max": "500000",
+        "in_tech_max": "100000",
+        "prec": "2",
+        "out_tech_min": "1000",
+        "in_tech_min": "4500",
+        "in_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.06",
+          "method": "ceil",
+          "max": "0"
+        },
+        "out_fee": {
+          "add": "0",
+          "min": "0",
+          "mult": "0.03",
+          "method": "ceil",
+          "max": "0"
+        }
+      }
+    }
+  },
+  "id": "",
+  "jsonrpc": "2.0"
+}
