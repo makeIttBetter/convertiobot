@@ -69,11 +69,9 @@ public class ReceiveFileCommand extends AbstractCommand {
     }
 
     private File getFile(String fileId) throws TelegramApiException {
-        if (fileId != null) {
-            GetFile getFile = new GetFile();
-            getFile.setFileId(fileId);
-            return bot.execute(getFile);
-        }
+        GetFile getFile = new GetFile();
+        getFile.setFileId(fileId);
+        return bot.execute(getFile);
     }
 
     private String getFileId(BotContextWsDTO botContext) {

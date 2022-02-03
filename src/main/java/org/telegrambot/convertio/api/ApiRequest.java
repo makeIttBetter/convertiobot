@@ -11,7 +11,6 @@ import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.stereotype.Component;
 import org.telegrambot.convertio.api.annotations.ApiParam;
 import org.telegrambot.convertio.api.annotations.JsonParam;
-import org.telegrambot.convertio.api.anymoney.enums.EnumParam;
 import org.telegrambot.convertio.exceptions.apis.ApiException;
 
 import java.lang.reflect.InvocationTargetException;
@@ -87,11 +86,13 @@ public abstract class ApiRequest {
             boolean param = Boolean.parseBoolean(value);
             jsonObject.put(key, param);
             log.info("Put Boolean value: " + value);
-        } else if (EnumParam.class.isAssignableFrom(clazz)) {
-            EnumParam enumParam = (EnumParam) returnObj;
-            value = enumParam.getName();
-            log.info("Put enum value: " + value);
-        } else {
+        }
+//        else if (EnumParam.class.isAssignableFrom(clazz)) {
+//            EnumParam enumParam = (EnumParam) returnObj;
+//            value = enumParam.getName();
+//            log.info("Put enum value: " + value);
+//        }
+        else {
             value = String.valueOf(returnObj);
             log.info("Put not an enum: " + value);
         }
